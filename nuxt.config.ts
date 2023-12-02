@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: false, ssr: false},
+  modules:['@pinia/nuxt'],
   css:["vuetify/styles/main.css"],
   build: {
     transpile: ['vuetify'],
